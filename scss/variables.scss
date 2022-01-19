@@ -1,0 +1,19 @@
+// Variables
+// Colours
+$clr-cyan: hsl(185, 75%, 39%);
+$clr-blue: hsl(229, 23%, 23%);
+$clr-blue-dark: hsl(227, 10%, 46%);
+$clr-grey: hsl(0, 0%, 59%);
+$clr-grey-dark: darken(
+  $color: $clr-grey,
+  $amount: 20,
+);
+$clr-grey-light: lighten(
+  $color: $clr-grey,
+  $amount: 30,
+);
+$clr-white: hsl(0, 0%, 100%);
+// Fonts
+$font-primary: "Kumbh Sans", sans-serif;
+$font-weight-primary: 400;
+$font-weight-bold: 700;

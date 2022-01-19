@@ -1,13 +1,4 @@
-// Variables
-// Colours
-$clr-cyan: hsl(185, 75%, 39%);
-$clr-blue: hsl(229, 23%, 23%);
-$clr-blue-dark: hsl(227, 10%, 46%);
-$clr-grey: hsl(0, 0%, 59%);
-// Fonts
-$font-primary: "Kumbh Sans", sans-serif;
-$font-weight-primary: 400;
-$font-weight-bold: 700;
+@use "variables" as var;
 
 // Reset styles
 *,
@@ -22,7 +13,7 @@ $font-weight-bold: 700;
 
 html,
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -35,6 +26,6 @@ h3,
 h4,
 h5,
 p {
-  font-family: $font-primary;
+  font-family: var.$font-primary;
   overflow-wrap: break-word;
 }
