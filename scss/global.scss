@@ -1,0 +1,40 @@
+// Variables
+// Colours
+$clr-cyan: hsl(185, 75%, 39%);
+$clr-blue: hsl(229, 23%, 23%);
+$clr-blue-dark: hsl(227, 10%, 46%);
+$clr-grey: hsl(0, 0%, 59%);
+// Fonts
+$font-primary: "Kumbh Sans", sans-serif;
+$font-weight-primary: 400;
+$font-weight-bold: 700;
+
+// Reset styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: $font-primary;
+  overflow-wrap: break-word;
+}
