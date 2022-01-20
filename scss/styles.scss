@@ -1,7 +1,12 @@
 @use "variables" as var;
 
 body {
-  background-color: var.$clr-cyan;
+  // background-color: var.$clr-cyan;
+  // background: no-repeat left -190vw top -100vh url(./images/bg-pattern-top.svg),
+  //   var.$clr-cyan;
+  background: no-repeat left -750px top -600px url(./images/bg-pattern-top.svg),
+    no-repeat right -750px bottom -600px url(./images/bg-pattern-bottom.svg),
+    var.$clr-cyan;
   display: flex;
   flex-direction: column;
   justify-content: center;

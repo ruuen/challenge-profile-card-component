@@ -28,7 +28,7 @@ p {
 }
 
 body {
-  background-color: #19a2ae;
+  background: no-repeat left -750px top -600px url(./images/bg-pattern-top.svg), no-repeat right -750px bottom -600px url(./images/bg-pattern-bottom.svg), #19a2ae;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,4 +121,10 @@ body {
   padding-top: 0.35rem;
   letter-spacing: 1px;
   color: #6a6f81;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-position: left -250px top -530px, right -210px bottom -640px;
+  }
 }
