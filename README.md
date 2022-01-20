@@ -34,7 +34,7 @@ This is Max Ruuen's solution to the [Profile card component challenge on Fronten
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-with-scss-bem-class-naming-mUQC8vOXD)
 - Live Site URL: [Netlify](https://rd-challenge-profile-card-component.netlify.app/)
 
 ## My process
